@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guarded-issue-agent"
+version = "0.1.0"
+description = "A safety-first reference pipeline from an issue to a locally generated draft PR."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "Sirage El-Jawhari" },
+]
+keywords = ["agents", "developer-tools", "safety", "automation"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.scripts]
+guarded-issue-agent = "guarded_issue_agent.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
