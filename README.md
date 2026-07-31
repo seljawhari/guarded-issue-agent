@@ -132,7 +132,7 @@ python -m unittest discover -s tests -v
 python -m compileall -q src tests
 ```
 
-The CI workflow runs both commands on Python 3.11, 3.12, and 3.13 with read-only
+The CI workflow runs both commands on Python 3.11 through 3.14 with read-only
 repository permissions and commit-pinned GitHub Actions.
 
 ## Repository map
