@@ -1,5 +1,7 @@
 # Guarded Issue Agent
 
+[![CI](https://github.com/seljawhari/guarded-issue-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/seljawhari/guarded-issue-agent/actions/workflows/ci.yml)
+
 Guarded Issue Agent is a small reference implementation for a deliberately
 limited workflow:
 
